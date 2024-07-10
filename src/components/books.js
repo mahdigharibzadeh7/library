@@ -1,3 +1,5 @@
+import bookPic from "../assets/pictures/book.jpg";
+
 const books = [
   {
     id: 1,
@@ -5,6 +7,7 @@ const books = [
     author: "author1",
     lang: "lang1",
     numOfPages: "100",
+    bookPic: bookPic,
   },
   {
     id: 2,
@@ -12,6 +15,7 @@ const books = [
     author: "author2",
     lang: "lang2",
     numOfPages: "200",
+    bookPic: bookPic,
   },
   {
     id: 3,
@@ -19,6 +23,7 @@ const books = [
     author: "author3",
     lang: "lang3",
     numOfPages: "300",
+    bookPic: bookPic,
   },
   {
     id: 4,
@@ -26,6 +31,7 @@ const books = [
     author: "author4",
     lang: "lang4",
     numOfPages: "400",
+    bookPic: bookPic,
   },
   {
     id: 5,
@@ -33,6 +39,7 @@ const books = [
     author: "author5",
     lang: "lang5",
     numOfPages: "500",
+    bookPic: bookPic,
   },
   {
     id: 6,
@@ -40,6 +47,7 @@ const books = [
     author: "author6",
     lang: "lang6",
     numOfPages: "600",
+    bookPic: bookPic,
   },
 ];
 
