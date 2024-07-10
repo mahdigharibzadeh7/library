@@ -122,4 +122,4 @@ const books = [
   },
 ];
 
-export default books;
+export { books };
