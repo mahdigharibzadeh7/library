@@ -1,8 +1,6 @@
-import React from "react";
-
 function Search() {
   return (
-    <div className="flex gap-x-2 mx-64 mt-20 ">
+    <div className="flex gap-x-2 mt-20 ">
       <input
         type="search"
         name="search"

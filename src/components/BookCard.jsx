@@ -1,8 +1,6 @@
-import bookPic from "../assets/pictures/book.jpg";
-
-function BookCard({ book: { id, name, author, lang, numOfPages } }) {
+function BookCard({ book: { id, name, author, lang, numOfPages, bookPic } }) {
   return (
-    <div key={id} className="flex bg-zinc-800 rounded-lg py-3 px-2 my-2">
+    <div key={id} className="flex bg-zinc-800 rounded-lg py-3 px-2 mb-2">
       <div className="w-[7%]">
         <img className="w-16 h-24 rounded-lg" src={bookPic} alt="" />
       </div>

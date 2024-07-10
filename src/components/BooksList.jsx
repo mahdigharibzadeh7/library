@@ -1,12 +1,11 @@
-import React from "react";
 import BookCard from "./BookCard";
 import books from "./books";
 
 function BooksList() {
   return (
-    <div className="mx-64 mt-20">
+    <div className="w-[75%]">
       {books.map((book) => (
-        <BookCard book={book} />
+        <BookCard key={book.id} book={book} />
       ))}
     </div>
   );
