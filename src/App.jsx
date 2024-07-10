@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import Search from "./components/Search";
-import BooksList from "./components/BooksList"
+import BooksList from "./components/BooksList";
 
 function App() {
   return (
