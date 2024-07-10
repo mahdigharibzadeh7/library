@@ -1,8 +1,6 @@
-import { useState } from "react";
 import BookCard from "./BookCard";
-import books from "../constants/books";
 
-function BooksList({ faveBooks, setFaveBooks }) {
+function BooksList({ faveBooks, setFaveBooks, books }) {
   const faveHandler = (book, status) => {
     if (status) {
       const newBookList = faveBooks.filter((i) => i.id !== book.id);
@@ -11,6 +9,7 @@ function BooksList({ faveBooks, setFaveBooks }) {
       setFaveBooks((faveBooks) => [...faveBooks, book]);
     }
   };
+
   return (
     <div className="w-full">
       {books.map((book) => (
