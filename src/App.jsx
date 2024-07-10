@@ -1,13 +1,13 @@
 import Header from "./components/Header";
+import MainCards from "./components/MainCards";
 import Search from "./components/Search";
-import BooksList from "./components/BooksList";
 
 function App() {
   return (
     <div>
       <Header />
       <Search />
-      <BooksList />
+      <MainCards />
     </div>
   );
 }
